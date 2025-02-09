@@ -36,9 +36,6 @@ android {
     }
 }
 
-
-val roomVersion = "2.5.0"
-
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -56,7 +53,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-    // For system UI controls (status bar colors)
-
 }

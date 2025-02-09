@@ -1,5 +1,5 @@
 package ir.mirsobhan.apps.todolist
 
-data class Task(val id: Int, val name: String, val description: String, var completed: Boolean = false)
+data class Task(val title: String,  var completed: Boolean = false, var group: String = "All")
 
 
